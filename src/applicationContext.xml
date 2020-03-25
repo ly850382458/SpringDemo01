@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id='student' class="com.org.cancer.entiy.Student">
+		<property name="stuNo" value="12"/>
+		<property name="stuName" value="zhangsan"/>
+		<property name="stuAge" value="13"/>
+	</bean>
+	<bean id='javaCourse' class="com.org.cancer.inter.JavaCourse"/>
+	<bean id='htmlCourse' class="com.org.cancer.inter.HtmlCourse"/>
+
+</beans>
